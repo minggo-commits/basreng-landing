@@ -90,19 +90,6 @@ To update the page title or meta description for SEO, edit the `<Layout>` compon
 └── tailwind.config.mjs     # Tailwind CSS configuration
 ```
 
----
-
-## � GitHub SEO Optimization (Recommended)
-To make this repository easy to find, set the following metadata in your GitHub repository settings:
-
-**Repository Description:**
-`🌶️ Premium Landing Page Template for Basreng & Snacks. Built with Astro & Tailwind CSS. SEO-optimized, ultra-fast, and WhatsApp integration ready. Created with Antigravity AI.`
-
-**Repository Topics (Tags):**
-`astro`, `tailwindcss`, `landing-page`, `template`, `seo-friendly`, `basreng`, `food-template`, `website-template`, `antigravity-ai`, `gemini-ai`
-
----
-
 ## �📦 Deployment
 Build the project for production:
 ```bash
