@@ -7,6 +7,20 @@ A high-converting, professional, and SEO-optimized landing page template built w
 
 ---
 
+## ✨ Key Features
+
+This template is designed to convert visitors into customers with these standout features:
+
+- 🚀 **Ultra-Fast Performance**: Built with Astro 5.x for near-instant loading times and 100/100 Lighthouse scores.
+- 📱 **Fully Responsive**: Mobile-first design that looks stunning on iPhones, Androids, and Desktops.
+- 🌶️ **Premium Visuals**: Includes high-quality AI-generated product photography for a professional look.
+- 💬 **WhatsApp Integration**: Strategic "Call to Action" buttons that link directly to your WhatsApp for instant sales.
+- 🔍 **SEO Optimized**: Pre-configured dynamic meta tags, semantic HTML5, and schema-ready structure.
+- 🎨 **Modern Aesthetics**: Features glassmorphism, smooth animations, and a premium color palette (Rose & Emerald).
+- ⚡ **Native Lazy Loading**: Optimized image delivery system to keep the site light and fast.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
