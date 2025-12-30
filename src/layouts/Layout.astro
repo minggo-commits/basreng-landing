@@ -1,0 +1,47 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Jagonya Basreng Pedas Daun Jeruk - Renyah, Gurih, dan Nagih!" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<title>{title} | Basreng Pedas Daun Jeruk</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-[#FFFAFA] text-slate-900 font-inter selection:bg-red-200 selection:text-red-900">
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	:root {
+		--primary: #EF4444;
+		--secondary: #22C55E;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply antialiased;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Lexend', sans-serif;
+	}
+</style>
